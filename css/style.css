@@ -29,9 +29,23 @@ body {
     float: left;
     padding: 60px;
     background-color: #fff;
+    position: relative;
+}
+.close:hover {
+    color: grey;
+    cursor: pointer;   
 }
 
 .close {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 57px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 form {
@@ -101,4 +115,3 @@ form > .form-row > a {
     text-decoration: none;
     font-weight: bold;
 }
-
