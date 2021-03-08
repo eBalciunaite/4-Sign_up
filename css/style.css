@@ -32,6 +32,15 @@ body {
 }
 
 .close {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    font-size: 30px;
+    text-align: center;
+    line-height: 57px;
+    margin-top: -60px;
+    margin-left: 360px;
 }
 
 form {
@@ -101,4 +110,3 @@ form > .form-row > a {
     text-decoration: none;
     font-weight: bold;
 }
-
